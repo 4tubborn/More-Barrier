@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "more-barrier:block/barrier_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/barrier"
+    },
+    "type=top": {
+      "model": "more-barrier:block/barrier_slab_top"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "more-barrier",
+	"version": "${version}",
+	"name": "More Barrier",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/more-barrier/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"stubborn.morebarrier.MoreBarrier"
+		],
+		"client": [
+			"stubborn.morebarrier.client.MoreBarrierClient"
+		],
+		"fabric-datagen": [
+			"stubborn.morebarrier.datagen.ModDataGenerator"
+		]
+	},
+	"mixins": [
+		"more-barrier.mixins.json",
+		{
+			"config": "more-barrier.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

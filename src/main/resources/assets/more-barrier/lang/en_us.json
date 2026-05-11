@@ -1,0 +1,13 @@
+{
+  "item.more-barrier.barrier_slab": "Barrier Slab",
+  "item.more-barrier.barrier_stairs": "Barrier Stairs",
+  "item.more-barrier.barrier_button": "Barrier Button",
+  "item.more-barrier.barrier_door": "Barrier Door",
+  "item.more-barrier.barrier_fence": "Barrier Fence",
+  "item.more-barrier.barrier_fence_gate": "Barrier Fence Gate",
+  "item.more-barrier.barrier_layer": "Barrier Layer",
+  "item.more-barrier.barrier_pressure_plate": "Barrier Pressure Plate",
+  "item.more-barrier.barrier_trapdoor": "Barrier Trapdoor",
+  "item.more-barrier.barrier_wall": "Barrier Wall",
+  "itemGroup.more-barrier": "More Barrier"
+}

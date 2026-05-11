@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "more-barrier:block/barrier_height2"
+    },
+    "layers=2": {
+      "model": "more-barrier:block/barrier_height4"
+    },
+    "layers=3": {
+      "model": "more-barrier:block/barrier_height6"
+    },
+    "layers=4": {
+      "model": "more-barrier:block/barrier_height8"
+    },
+    "layers=5": {
+      "model": "more-barrier:block/barrier_height10"
+    },
+    "layers=6": {
+      "model": "more-barrier:block/barrier_height12"
+    },
+    "layers=7": {
+      "model": "more-barrier:block/barrier_height14"
+    },
+    "layers=8": {
+      "model": "more-barrier:block/barrier_block"
+    }
+  }
+}

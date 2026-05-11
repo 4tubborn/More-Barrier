@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "stubborn.morebarrier.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+	  "MixinBarrierRender",
+    "MixinBlockRender"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "mixins": [
+  ]
+}
